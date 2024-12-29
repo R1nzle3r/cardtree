@@ -34,7 +34,7 @@ backlogged: 'Rinzler'
 #tumblr: 'mytumblr'
 #weibo: 'myweibo'
 #vk: 'myvk'
-blog_url: 'https://r1nzle3r.github.io/'
+blog_url: 'r1nzle3r.github.io/'
 email: 'rinzl03r@proton.me'
 #messenger: 'myfbchat'
 
@@ -124,6 +124,7 @@ social-links:
 
   - name: backlogged
     url-pattern: backloggd.com/u/__USERNAME__
+    icon-class: fas fa-solid fa-b
 
   - name: vimeo
     url-pattern: vimeo.com/__USERNAME__
