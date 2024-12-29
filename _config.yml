@@ -2,8 +2,8 @@
 remote_theme: epidrome/cover-card@main
 
 # Title and tag line
-title: 'My name'
-description: 'I am amazing.'
+title: 'Rinzler'
+description: 'Me siga nas redes sociais!'
 
 # Images
 avatar: 'avatar.jpg'
@@ -12,13 +12,14 @@ favicon: 'favicon.ico'
 
 # Online profiles
 #dribbble: 'mydribbble'
-facebook: 'myfacebook'
-twitter: 'mytwitter'
+#facebook: 'myfacebook'
+bluesky: 'rinzl03r.bsky.social'
+twitter: 'rinzl03r'
 #linkedin: 'mylinkedin'
-instagram: 'myinsta'
+#instagram: 'myinsta'
 #pinterest: 'mypinterest'
-youtube: 'myyoutube'
-github-user: 'mygithub'
+youtube: 'rinzle3r'
+#github-user: 'mygithub'
 #gitlab-user: ''
 #codepen: ''
 #steam: ''
@@ -28,14 +29,14 @@ github-user: 'mygithub'
 #reddit: ''
 #rubygems: ''
 #medium:  ''
-tumblr: 'mytumblr'
-weibo: 'myweibo'
-vk: 'myvk'
-blog_url: 'myblog.blog.com'
-email: 'hello@example.com'
-messenger: 'myfbchat'
+#tumblr: 'mytumblr'
+#weibo: 'myweibo'
+#vk: 'myvk'
+blog_url: 'https://r1nzle3r.github.io/'
+email: 'rinzl03r@proton.me'
+#messenger: 'myfbchat'
 
-social-links-order: [github-user, facebook, twitter, instagram, tumblr, pinterest, linkedin, youtube, vk, weibo, dribbble, messenger, blog_url, email]
+social-links-order: [bluesky, twitter, youtube, blog_url, email]
 
 # Yaml manifest of supported social links
 # Requirements:
@@ -60,6 +61,9 @@ social-links:
   - name: facebook
     url-pattern: facebook.com/__USERNAME__
     icon-class: fab fa-2x fa-facebook-f
+
+  - name: bluesky
+    url-pattern: bsky.app/profile/__USERNAME__
 
   - name: twitter
     url-pattern: twitter.com/__USERNAME__
