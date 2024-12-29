@@ -19,6 +19,8 @@ twitter: 'rinzl03r'
 #instagram: 'myinsta'
 #pinterest: 'mypinterest'
 youtube: 'rinzle3r'
+twitch: 'rinzle3r'
+backlogged: 'Rinzler'
 #github-user: 'mygithub'
 #gitlab-user: ''
 #codepen: ''
@@ -36,7 +38,7 @@ blog_url: 'https://r1nzle3r.github.io/'
 email: 'rinzl03r@proton.me'
 #messenger: 'myfbchat'
 
-social-links-order: [bluesky, twitter, youtube, blog_url, email]
+social-links-order: [bluesky, twitter, youtube, twitch, backlogged, blog_url, email]
 
 # Yaml manifest of supported social links
 # Requirements:
@@ -64,6 +66,7 @@ social-links:
 
   - name: bluesky
     url-pattern: bsky.app/profile/__USERNAME__
+    icon-class: fab fa-bluesky
 
   - name: twitter
     url-pattern: twitter.com/__USERNAME__
@@ -115,6 +118,12 @@ social-links:
 
   - name: youtube
     url-pattern: youtube.com/__USERNAME__
+
+  - name: twitch
+    url-pattern: twitch.tv/__USERNAME__
+
+  - name: backlogged
+    url-pattern: backloggd.com/u/__USERNAME__
 
   - name: vimeo
     url-pattern: vimeo.com/__USERNAME__
