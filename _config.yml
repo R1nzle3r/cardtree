@@ -20,7 +20,7 @@ twitter: 'rinzl03r'
 #pinterest: 'mypinterest'
 youtube: 'rinzle3r'
 twitch: 'rinzle3r'
-backlogged: 'Rinzler'
+b: 'Rinzler'
 #github-user: 'mygithub'
 #gitlab-user: ''
 #codepen: ''
@@ -38,7 +38,7 @@ blog_url: 'r1nzle3r.github.io/'
 email: 'rinzl03r@proton.me'
 #messenger: 'myfbchat'
 
-social-links-order: [bluesky, twitter, youtube, twitch, backlogged, blog_url, email]
+social-links-order: [bluesky, twitter, youtube, twitch, b, blog_url, email]
 
 # Yaml manifest of supported social links
 # Requirements:
@@ -122,9 +122,9 @@ social-links:
   - name: twitch
     url-pattern: twitch.tv/__USERNAME__
 
-  - name: backlogged
+  - name: b
     url-pattern: backloggd.com/u/__USERNAME__
-    icon-class: fas fa-solid fa-b
+    icon-class: fa-solid fa-b
 
   - name: vimeo
     url-pattern: vimeo.com/__USERNAME__
